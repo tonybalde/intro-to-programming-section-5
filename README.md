@@ -53,48 +53,48 @@ There are **at least 8 bugs** in this assignment, do your best to track down and
 
 Below is a list of requirements explaining what the application should do:
 
-- [ ] No errors in the browser console
+- [x] No errors in the browser console
 
 > _**Note:** keep the console open as you play the game so that you can see the randomly generated "target number"_
 
 <img src="instructions/game-play/step-1.png" alt="Game Play: Step 1" width="600" />
 
-- [ ] At the start, the "reset" button and all of the "messages" should be hidden
+- [x] At the start, the "reset" button and all of the "messages" should be hidden
 
 <img src="instructions/game-play/step-2.png" alt="Game Play: Step 2" width="600" />
 
-- [ ] You should be able to type a number into the input field and click "Submit Guess" to submit the form
+- [x] You should be able to type a number into the input field and click "Submit Guess" to submit the form
 
 <img src="instructions/game-play/step-3.png" alt="Game Play: Step 3" width="600" />
 
-- [ ] When the form is submitted, you should see the following:
+- [x] When the form is submitted, you should see the following:
 
-  - [ ] A message displaying the number that was entered
-  - [ ] A message displaying how many tries you have left (starts at 5 and decrements by 1)
-  - [ ] A message describing the guess (low, high, etc.)
-  - [ ] A "reset" button that restarts the game
+  - [x] A message displaying the number that was entered
+  - [x] A message displaying how many tries you have left (starts at 5 and decrements by 1)
+  - [x] A message describing the guess (low, high, etc.)
+  - [x] A "reset" button that restarts the game
 
-- [ ] If the guessed number is BELOW the target, the message should say "too low"
+- [x] If the guessed number is BELOW the target, the message should say "too low"
 
 <img src="instructions/game-play/step-4.png" alt="Game Play: Step 4" width="600" />
 
-- [ ] If the guessed number is ABOVE the target, the message should say "too high"
+- [x] If the guessed number is ABOVE the target, the message should say "too high"
 
 <img src="instructions/game-play/step-5.png" alt="Game Play: Step 5" width="600" />
 
-- [ ] If the guessed number is the SAME as the target, then:
-  - [ ] The input field and "Submit Guess" button should be disabled
-  - [ ] The message should say "guessed correctly"
+- [x] If the guessed number is the SAME as the target, then:
+  - [x] The input field and "Submit Guess" button should be disabled
+  - [x] The message should say "guessed correctly"
 
 <img src="instructions/game-play/step-6a.png" alt="Game Play: Step 6a" width="600" />
 
-- [ ] If the guessed number is not the same AND all 5 tries have been used, then:
-  - [ ] The input field and "Submit Guess" button should be disabled
-  - [ ] The message should say "0 guesses remaining"
+- [x] If the guessed number is not the same AND all 5 tries have been used, then:
+  - [x] The input field and "Submit Guess" button should be disabled
+  - [x] The message should say "0 guesses remaining"
 
 <img src="instructions/game-play/step-6b.png" alt="Game Play: Step 6b" width="600" />
 
-- [ ] When you click the "reset" button, the form should return to its initial state (not disabled)
+- [x] When you click the "reset" button, the form should return to its initial state (not disabled)
 
 <img src="instructions/game-play/step-reset.png" alt="Game Play: Step Reset" width="600" />
 
